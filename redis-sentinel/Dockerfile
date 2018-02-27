@@ -1,4 +1,5 @@
 FROM redis:3.2.11-alpine
+MAINTAINER David Papp <david@recart.com>
 MAINTAINER Ján Koščo (@s7anley)
 
 RUN apk add --no-cache \
